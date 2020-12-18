@@ -13,3 +13,8 @@ services:
 volumes:
   mysql_data:
     driver: local
+
+networks:
+  default:
+    external:
+      name: purasu-local
